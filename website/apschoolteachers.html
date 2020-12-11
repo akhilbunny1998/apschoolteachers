@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+h1 {
+  text-align: center
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class='header'>
+  <h1>
+    AP SCHOOL TEACHERS
+  </h1>
+</div>
+
+<div class="navbar">
+  <a class="active">Home</a>
+  <a href="#contact">PRC GO'S</a>
+  <a href="#contact">GO'S</a>
+  <a href="#about">Proceedings</a>
+  <a href="#about">Leave Rules</a>
+  <a href="#about">EHS HEALTH</a>
+  <a href="#about">Service Rules</a>
+  <a href="#about">Softwares</a>
+  <div class="dropdown">
+    <button class="dropbtn">PDF'S
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Telugu Medium</a>
+      <a href="#">English Medium</a>
+    </div>
+  </div> 
+  <a href="#about">Videos</a>
+</div>
+
+<!-- <div style="padding-left:16px">
+  <iframe width="1500" height="750" src="https://www.youtube.com/embed/videoseries?list=PLS7eHOB3yOagzpdHFWh-lsXhhmmt2V8by">
+</iframe>
+</div> -->
+
+
+
+</body>
+</html>
